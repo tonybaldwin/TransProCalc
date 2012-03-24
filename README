@@ -1,0 +1,115 @@
+TransProCalc - Translation Project Calculator
+http://www.linguasos.org/downloads/lostpcalc.html
+
+TransProCalc: README file
+updated 03/04/08
+
+TransProCalc requires ActiveTcl-8.5, which can be downloaded FREE
+at http://www.activestate.com/store/productdetail.aspx?prdGuid=f0cd6399-fefb-466e-ba17-220dcd6f4078
+If you are not running ActiveTcl-8.5, it won't work, because this latest Tcl, released in
+December of 2007, includes new widgets and stuff that are not included in previous
+Tcl releases, and TPC uses some of those features.
+
+How to install TPC:
+
+On Linux:
+Copy tpcalc to /usr/local/bin/tpcalc
+Copy tpcalendar to /usr/local/bin/tpcalendar
+
+On Mac, I believe you should do as in Linux.
+Essentially, all three scripts must be in your path.
+
+Same for windows.  Just place all three scripts
+in your path.  I'm not sure, but, I think that means
+in your program files dir.
+
+How to run TPC:
+
+./tpcalc
+
+On Linux, you can create a shortcut to wherever you've placed it
+to make a desktop icon or menu item.
+On Linguas Os the fluxbox menu item is
+[exec] (TransProCalc) {/usr/local/bin/tpcalc} 
+
+Or, to run it from a linux terminal do
+$ cd /path/to/whereyouputit
+$ ./tpcalc
+
+I suppose a MacOS terminal should be able to do the same.
+I'm not sure how that works from a DOS prompt, since I haven't
+used Windows in about 8 years.
+TransProCalc does work fine in Windows, though,
+except that it doesn't print, unless you have lpr
+with cygwyn, or something.
+I know a few folks that are using it in Windows, and they tell me
+it works great.  They just save reports and open with another editor
+to print them, if they need them printed.
+
+How to use TransProCalc:
+
+Perhaps you can find other uses, but this is how I use TPC.
+When a  project comes in, I use ProjectDocs to gather and organize information
+on all documents, and ProjectAssign to organize information on assignments.
+I generate and save these reports for future reference, so that I have this information
+at my finger tips when it is time to organize and deliver the project to the client,
+and create my invoice.
+ProjectFin then generates an estimate of my charges and expenses,
+and calculates an estimated gross revenue (not incl. deduction for taxes, etc.)
+At the end of a project, when I invoice, ProjectFin gathers and organizes the
+relevant financial information and generates a report which I give to my bookkeeper
+with all invoices (mine to the client, any from providers), receipts and other relevant
+documentation.  This gives her all the important information at a glance, which 
+she can then enter into gnucash.
+
+When working in TPC certain values will carry from one window to another, such
+as Project No., Client ID, etc., for convenience.  Thus, you can generate all three
+reports without re-entering information, as long as TPC remains open, and you
+haven't pressed "Clear", which resets all variables.
+TPC will save your reports, but it can not access that information once you have
+closed the program, yet.  Thus, I end up re-entering data at the end of a project
+when I create my ProjectFin report.
+I'm working on the whole "save project / open project" bit.
+
+I often paste all three reports to one file at the end of a project
+and save as one project report.
+You can copy any of the reports into another in TPC, in fact, and save all at once,
+if you wish, as one report.  Do as you like.
+
+If you ask for a calculation and you get "?" for an answer, it means TPC
+is lacking information required to make the calculation, ie., you left a required
+field blank.  Just put a zero in numerical fields for which you have no data.
+
+You can use any of the TPCs three functions by itself, of course.
+Say, a client wants an estimate on a project.
+You can use tpcalc to crunch a few numbers.
+You need not save or print reports, if you don't need/want them
+Some folks may generate their info in TPC and enter into some
+spreadsheet or database, for all I care.
+Of course, a spreadsheet could be programmed to do nearly everything
+TPC does, but, hey, isn't it nice to have a nice graphical application to
+automagically do your math and hand you your data in a tidy report?
+
+Okay, enough rambling.
+If you like TransProCalc and want to drop me a line to say thanks,
+go ahead and e-mail me at tonytraductor@linguasos.org
+Likewise, do the same if you have any questions about using TPC,
+and/or suggestions for new features.
+
+If you have complaints about TPC, go waste some
+money on some proprietary crap and leave us alone.
+
+This program was written by Anthony Baldwin / tonytraductor@@linguasos.org
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
